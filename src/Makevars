@@ -1,2 +1,2 @@
-PKG_CPPFLAGS += -I/opt/X11/lib -I/usr/X11R6/include
-PKG_LIBS +=  -L/opt/X11/lib -L/usr/X11R6/include -lX11 $(RCPP_LDFLAGS)
+PKG_CPPFLAGS += -I/opt/X11/lib -I/opt/X11/include
+PKG_LIBS +=  -L/opt/X11/lib -L/opt/X11/include -lX11 $(RCPP_LDFLAGS)
